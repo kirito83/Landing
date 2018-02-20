@@ -1,0 +1,192 @@
+html, body {
+    margin: 0; padding: 0;
+}
+
+.navbar {
+	margin-top: 0px;
+	display:flex;
+	justify-content: space-between;
+	.logo-container {
+		margin-top: 0px;
+		align-self: flex-start;
+		display: flex;
+		width: 20%;
+		.logo {
+			margin-top: 0px;
+			padding: 10% 0 0 49%;
+			img {
+				width:62%;
+			}
+		}
+	}
+	.navbar-right-ul {
+		margin-top: 0px;
+		display:flex;
+		list-style-type: none;
+		margin-right: 11%;
+		li a {
+			display: inline-block;
+			padding: 30px 12px 0 12px;
+			margin: 0 20% 10% 20%;
+			color: #28B361;
+  			font-size:18px;
+  			font-weight: 800;
+  			font-family: 'Hammersmith One';
+  			display:inline-block;
+			text-decoration:none;
+			height:100%;
+		}		
+		li:hover a:hover {
+			margin-top: 0px;
+			padding-top: 35px;
+			background-color: #C2C2C2;
+			color: white;
+		}
+		.btn-try {
+			margin: 15px 15px 0 20px;
+			display: inline-block;
+			border: 10px solid #28B361;
+			background-color: #28B361;
+			border-radius: 25px;
+			padding: 5px 15px 5px 15px;
+			font-size:18px;
+			font-weight: 800;
+  			font-family: 'Hammersmith One';
+			text-decoration:none;
+			a {
+				margin-top: 0px;
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Hammersmith One';
+	font-size: 5em;
+	padding: 0 10% 0 10%;
+	margin: 2% 0 0 0;
+}
+
+.video-container {
+	position:relative;
+	margin: -12% 16% -20% 16%;
+	z-index:1;
+}
+
+.trois {
+	position:relative;
+	width: 80%;
+	margin-left: 6%;
+	margin-top: 8%;
+	z-index: 2;
+	.trois-ul {
+		list-style-type: none;
+		display: flex;
+		padding-left:25%;
+		padding-right:25%;
+		li {
+			display:inline-block;
+			border: 2px solid #C2C2C2;
+			padding-left: 15%;
+			padding-right: 15%;
+			padding-top: 10%;
+			text-align: center;
+  			font-size:18px;
+  			font-weight: 800;
+  			font-family: 'Hammersmith One';
+		}
+		a {
+			color: #28B361;
+			text-decoration:none;
+		}
+		li:hover {
+			background-color: #C2C2C2;
+			color: white;
+		}
+
+	}
+}
+
+.content {
+div.email {
+padding-left: 20%;
+}
+h1 {
+	text-align: center;
+	font-family: 'Hammersmith One';
+	font-size: 3em;
+	padding: 0 10% 0 10%;
+	margin: 2% 0 0 0;
+}
+padding-left: 30%;
+padding-right: 30%;
+h2 {
+font-size: 3.425rem;
+}
+h4 {
+font-size: 1.125rem;
+color: rgb(114, 114, 114)
+}
+p {
+font-size: 1.125rem;
+color: rgb(114, 114, 114)
+}
+button.primary {
+font-size: 1.375rem;
+display: inline-block;
+font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height: 2.73em;
+padding: 0 1.25em;
+padding-top: 0px;
+padding-top: 0.146em;
+margin-left: 40%;
+border-radius: 2em;
+background-color: #1bb45e;
+color: #ffffff;
+text-decoration: none;
+margin-top: 2.91em;
+margin-bottom: 2.91em;
+}
+button.suscribe {
+background-color: #1eb45d;
+border: none;
+border-radius: 4px;
+color: #ffffff;
+padding: 0.4em 0.6em;
+}
+ul {
+color: rgb(114, 114, 114);
+li {
+box-sizing: border-box;
+a {
+text-decoration: none;
+color: #08a1f4;
+}
+}
+}
+}
+
+nav.fnav {
+font-size: 0.95rem;
+padding-left: 25%;
+padding-right: 25%;
+ul {
+display: flex;
+justify-content: space-around;
+position: relative;
+margin: 0;
+padding: 0;
+list-style: none;
+li {
+flex-grow: 1;
+a {
+display: block;
+color: inherit;
+text-decoration: none;
+}
+}
+}
+}
