@@ -769,3 +769,37 @@ width: 16px;
 }
 }
 }
+
+.footer-info {
+padding-left: 18%;
+padding-right: 18%;
+padding-top: 100px;
+background-color: rgb(16, 37, 51);
+display: flex;
+justify-content: space-between;
+position: relative;
+margin-bottom: 56px;
+flex: 0 0 32.14%;
+ul {
+flex: 0 0 32.14%;
+li {
+display: inline-block;
+border-right: 1px solid #90A1B1;
+margin-right: 12px;
+padding-right: 12px;
+margin-bottom: 12px;
+text-align: center;
+.inc {
+color: #90A1B1;
+}
+a {
+text-decoration: none;
+color: #90A1B1;
+}
+a:hover {
+text-decoration: underline;
+text-decoration-color: rgb(0, 153, 204);
+}
+}
+}
+}
